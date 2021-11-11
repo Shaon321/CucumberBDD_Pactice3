@@ -1,4 +1,5 @@
 Feature: Sign up
+  @qa @prePost @signup
   Scenario: Student should be able to register with valid info
     Given I am at TalentTEK Homepage
     And I click Create New Account Button in Login Page
